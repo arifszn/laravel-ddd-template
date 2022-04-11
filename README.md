@@ -4,17 +4,19 @@
 
 ```bash
 /app
-└── /Domains
-    └── /Domain1
-        ├── /Http
-        ├── /Migrations
-        ├── /Models
-        ├── /Providers
-    └── /Domain1
-        ├── /Http
-        ├── /Migrations
-        ├── /Models
-        ├── /Providers
+├── /Domains
+|   ├── /Domain1
+|   |   ├── /Http
+|   |   ├── /Migrations
+|   |   ├── /Models
+|   |   ├── /Providers
+|   |   └── ....
+|   ├── /Domain1
+|   |   ├── /Http
+|   |   ├── /Migrations
+|   |   ├── /Models
+|   |   ├── /Providers
+|   |   └── ....
 /bootstrap
 /config
 /database
@@ -23,11 +25,11 @@
 /resources
 /routes
 ├── /domain1
-├── /domain2
+└── /domain2
 /storage
 /tests
 /vendor
-.env
+...
 ```
 
 ## Installation
