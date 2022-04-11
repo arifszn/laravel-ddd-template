@@ -181,6 +181,7 @@ return [
          * Domain Service Providers
          */
         App\Domains\Users\Providers\DomainServiceProvider::class,
+        App\Domains\Books\Providers\DomainServiceProvider::class,
 
     ],
 
