@@ -11,7 +11,7 @@
 |   |   ├── /Models
 |   |   ├── /Providers
 |   |   └── ....
-|   ├── /Domain1
+|   ├── /Domain2
 |   |   ├── /Http
 |   |   ├── /Migrations
 |   |   ├── /Models
@@ -46,7 +46,7 @@
     ```
 -   Run `./vendor/bin/sail up -d`.
 
-`sail` is equivalent of `docker-compose`, read [`laravel/sail`](https://laravel.com/docs/8.x/sail) doc.
+`sail` is equivalent of `docker-compose`, read [`laravel/sail`](https://laravel.com/docs/9.x/sail) doc.
 
 ## Add New Domain
 
